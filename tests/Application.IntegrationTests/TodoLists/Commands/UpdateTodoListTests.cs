@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.TodoLists.Commands.CreateTodoList;
-using CleanArchitecture.Application.TodoLists.Commands.UpdateTodoList;
-using CleanArchitecture.Domain.Entities;
+﻿using MetisBpm.Application.Common.Exceptions;
+using MetisBpm.Application.TodoLists.Commands.CreateTodoList;
+using MetisBpm.Application.TodoLists.Commands.UpdateTodoList;
+using MetisBpm.Domain.Entities;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.IntegrationTests.TodoLists.Commands;
+namespace MetisBpm.Application.IntegrationTests.TodoLists.Commands;
 
 using static Testing;
 

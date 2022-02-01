@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.Common.Models;
-using CleanArchitecture.Domain.Common;
+﻿using MetisBpm.Application.Common.Interfaces;
+using MetisBpm.Application.Common.Models;
+using MetisBpm.Domain.Common;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace CleanArchitecture.Infrastructure.Services;
+namespace MetisBpm.Infraestructure.Services;
 
 public class DomainEventService : IDomainEventService
 {

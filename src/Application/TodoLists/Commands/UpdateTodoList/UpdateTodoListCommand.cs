@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Exceptions;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
+﻿using MetisBpm.Application.Common.Exceptions;
+using MetisBpm.Application.Common.Interfaces;
+using MetisBpm.Domain.Entities;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoLists.Commands.UpdateTodoList;
+namespace MetisBpm.Application.TodoLists.Commands.UpdateTodoList;
 
 public class UpdateTodoListCommand : IRequest
 {

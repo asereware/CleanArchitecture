@@ -1,6 +1,6 @@
-﻿global using CleanArchitecture.Domain.Common;
-global using CleanArchitecture.Domain.Entities;
-global using CleanArchitecture.Domain.Enums;
-global using CleanArchitecture.Domain.Events;
-global using CleanArchitecture.Domain.Exceptions;
-global using CleanArchitecture.Domain.ValueObjects;
+﻿global using MetisBpm.Domain.Common;
+global using MetisBpm.Domain.Entities;
+global using MetisBpm.Domain.Enums;
+global using MetisBpm.Domain.Events;
+global using MetisBpm.Domain.Exceptions;
+global using MetisBpm.Domain.ValueObjects;

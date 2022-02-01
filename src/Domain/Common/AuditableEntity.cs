@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Common;
+﻿namespace MetisBpm.Domain.Common;
 
 public abstract class AuditableEntity
 {

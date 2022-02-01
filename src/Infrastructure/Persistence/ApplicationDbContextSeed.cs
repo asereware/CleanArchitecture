@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.ValueObjects;
-using CleanArchitecture.Infrastructure.Identity;
+﻿using MetisBpm.Domain.Entities;
+using MetisBpm.Domain.ValueObjects;
+using MetisBpm.Infraestructure.Identity;
 using Microsoft.AspNetCore.Identity;
 
-namespace CleanArchitecture.Infrastructure.Persistence;
+namespace MetisBpm.Infraestructure.Persistence;
 
 public static class ApplicationDbContextSeed
 {

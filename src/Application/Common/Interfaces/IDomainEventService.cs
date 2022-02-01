@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Domain.Common;
+﻿using MetisBpm.Domain.Common;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace MetisBpm.Application.Common.Interfaces;
 
 public interface IDomainEventService
 {

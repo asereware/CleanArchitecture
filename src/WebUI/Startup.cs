@@ -1,15 +1,15 @@
-using CleanArchitecture.Application;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.WebUI.Filters;
-using CleanArchitecture.WebUI.Services;
+using MetisBpm.Application;
+using MetisBpm.Application.Common.Interfaces;
+using MetisBpm.Infraestructure;
+using MetisBpm.Infraestructure.Persistence;
+using MetisBpm.WebUI.Filters;
+using MetisBpm.WebUI.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using NSwag;
 using NSwag.Generation.Processors.Security;
 
-namespace CleanArchitecture.WebUI;
+namespace MetisBpm.WebUI;
 
 public class Startup
 {

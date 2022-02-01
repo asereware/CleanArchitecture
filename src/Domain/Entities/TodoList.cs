@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Entities;
+﻿namespace MetisBpm.Domain.Entities;
 
 public class TodoList : AuditableEntity
 {

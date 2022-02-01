@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Models;
+﻿using MetisBpm.Application.Common.Models;
 
-namespace CleanArchitecture.Application.Common.Interfaces;
+namespace MetisBpm.Application.Common.Interfaces;
 
 public interface IIdentityService
 {

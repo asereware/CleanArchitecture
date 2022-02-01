@@ -1,15 +1,15 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Infrastructure.Files;
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
-using CleanArchitecture.Infrastructure.Services;
+﻿using MetisBpm.Application.Common.Interfaces;
+using MetisBpm.Infraestructure.Files;
+using MetisBpm.Infraestructure.Identity;
+using MetisBpm.Infraestructure.Persistence;
+using MetisBpm.Infraestructure.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CleanArchitecture.Infrastructure;
+namespace MetisBpm.Infraestructure;
 
 public static class DependencyInjection
 {

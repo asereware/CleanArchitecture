@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Events;
+﻿namespace MetisBpm.Domain.Events;
 
 public class TodoItemDeletedEvent : DomainEvent
 {

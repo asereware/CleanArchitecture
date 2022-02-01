@@ -1,9 +1,9 @@
-using CleanArchitecture.Infrastructure.Identity;
-using CleanArchitecture.Infrastructure.Persistence;
+using MetisBpm.Infraestructure.Identity;
+using MetisBpm.Infraestructure.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.WebUI;
+namespace MetisBpm.WebUI;
 
 public class Program
 {

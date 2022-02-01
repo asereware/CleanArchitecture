@@ -15,7 +15,7 @@
         "DOTNET_ENVIRONMENT": "Development"
       }
     },
-    "CleanArchitecture.WebUI": {
+    "MetisBpm.WebUI": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

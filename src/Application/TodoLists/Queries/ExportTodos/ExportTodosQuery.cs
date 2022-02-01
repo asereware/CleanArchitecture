@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using CleanArchitecture.Application.Common.Interfaces;
+using MetisBpm.Application.Common.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
+namespace MetisBpm.Application.TodoLists.Queries.ExportTodos;
 
 public class ExportTodosQuery : IRequest<ExportTodosVm>
 {

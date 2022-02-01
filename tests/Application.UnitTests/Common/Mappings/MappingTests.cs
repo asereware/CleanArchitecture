@@ -1,11 +1,11 @@
 ﻿using System.Runtime.Serialization;
 using AutoMapper;
-using CleanArchitecture.Application.Common.Mappings;
-using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
-using CleanArchitecture.Domain.Entities;
+using MetisBpm.Application.Common.Mappings;
+using MetisBpm.Application.TodoLists.Queries.GetTodos;
+using MetisBpm.Domain.Entities;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.UnitTests.Common.Mappings;
+namespace MetisBpm.Application.UnitTests.Common.Mappings;
 
 public class MappingTests
 {

@@ -1,8 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using MetisBpm.Application.Common.Interfaces;
 
-namespace CleanArchitecture.Infrastructure.Services;
+namespace MetisBpm.Infraestructure.Services;
 
 public class DateTimeService : IDateTime
 {
     public DateTime Now => DateTime.Now;
+    public DateTime UtcNow => DateTime.UtcNow;
 }

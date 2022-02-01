@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Domain.Enums;
+﻿namespace MetisBpm.Domain.Enums;
 
 public enum PriorityLevel
 {

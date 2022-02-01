@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.Events;
+﻿using MetisBpm.Application.Common.Interfaces;
+using MetisBpm.Domain.Entities;
+using MetisBpm.Domain.Events;
 using MediatR;
 
-namespace CleanArchitecture.Application.TodoItems.Commands.CreateTodoItem;
+namespace MetisBpm.Application.TodoItems.Commands.CreateTodoItem;
 
 public class CreateTodoItemCommand : IRequest<int>
 {

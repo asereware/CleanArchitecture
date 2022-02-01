@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
-using CleanArchitecture.Application.Common.Interfaces;
-using CleanArchitecture.Application.TodoLists.Queries.ExportTodos;
-using CleanArchitecture.Infrastructure.Files.Maps;
+using MetisBpm.Application.Common.Interfaces;
+using MetisBpm.Application.TodoLists.Queries.ExportTodos;
+using MetisBpm.Infraestructure.Files.Maps;
 using CsvHelper;
 
-namespace CleanArchitecture.Infrastructure.Files;
+namespace MetisBpm.Infraestructure.Files;
 
 public class CsvFileBuilder : ICsvFileBuilder
 {

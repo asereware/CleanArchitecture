@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace CleanArchitecture.Infrastructure.Identity;
+namespace MetisBpm.Infraestructure.Identity;
 
 public class ApplicationUser : IdentityUser
 {

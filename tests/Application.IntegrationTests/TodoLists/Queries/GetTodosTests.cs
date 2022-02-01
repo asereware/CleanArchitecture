@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
-using CleanArchitecture.Domain.Entities;
-using CleanArchitecture.Domain.ValueObjects;
+﻿using MetisBpm.Application.TodoLists.Queries.GetTodos;
+using MetisBpm.Domain.Entities;
+using MetisBpm.Domain.ValueObjects;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace CleanArchitecture.Application.IntegrationTests.TodoLists.Queries;
+namespace MetisBpm.Application.IntegrationTests.TodoLists.Queries;
 
 using static Testing;
 

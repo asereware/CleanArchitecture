@@ -1,8 +1,8 @@
 ﻿using System.Security.Claims;
 
-using CleanArchitecture.Application.Common.Interfaces;
+using MetisBpm.Application.Common.Interfaces;
 
-namespace CleanArchitecture.WebUI.Services;
+namespace MetisBpm.WebUI.Services;
 
 public class CurrentUserService : ICurrentUserService
 {
